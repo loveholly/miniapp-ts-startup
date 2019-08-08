@@ -1,0 +1,23 @@
+{
+  "name": "miniapp-ts-startup",
+  "version": "1.0.1",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js",
+    "build": "gulp",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-json-transform": "^0.4.7",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-watch": "^5.0.1",
+    "miniprogram-api-typings": "^2.7.7-1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.15",
+    "rxjs": "^6.5.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"projectname": "demo-sk",
+	"scripts": {
+		"beforeCompile": "npm run build",
+		"beforePreview": "npm run build",
+		"beforeUpload": "npm run build"
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true
+	},
+	"appid": "wx432071d1f217954b",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
